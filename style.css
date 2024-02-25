@@ -7,6 +7,7 @@
 body {
     display: flex;
     flex-wrap: wrap;
+    width: 100vw;
 }
 
 .main-container {
@@ -27,6 +28,10 @@ footer {
     box-shadow: 0 0 0.5rem 0.2rem rgba(0, 0, 0, 0.3);
 }
 
+body>* {
+    overflow: hidden;
+}
+
 header {
     background-image: url("background-b.png");
     background-color: white;
@@ -39,7 +44,7 @@ header {
     padding: 0.5rem 10%;
 
     position: fixed;
-    width: 100%;
+    width: 100vw;
 
     h1 {
         color: purple;
@@ -217,8 +222,7 @@ div.testimonial {
     }
 }
 
-.footer-container
-{
+.footer-container {
     background-image: url("background-b.png");
     width: 100vw;
 }
@@ -261,19 +265,19 @@ a {
     color: black;
 }
 
-@media only screen and (max-width: 1800px) {
+@media (max-width: 1800px) {
     section.ad {
         width: 55vw;
     }
 }
 
-@media only screen and (max-width: 1250px) {
+@media (max-width: 1250px) {
     section.ad {
         width: 85vw;
     }
 }
 
-@media only screen and (max-width: 550px) {
+@media (max-width: 550px) {
     section {
         width: 100vw !important;
     }
@@ -288,9 +292,29 @@ a {
     .testimonial {
         flex: 1 1 30% !important;
     }
+
+    section.newsletter {
+        height: 35vh;
+    }
+
+    header div.site-title {
+        width: 80%;
+
+        h1 {
+            font-size: 33px;
+        }
+    }
+
+    header {
+        justify-content: space-evenly;
+    }
+
+    section.ad img {
+        width: 7rem;
+    }
 }
 
-@media only screen and (max-width: 1100px) {
+@media (max-width: 1100px) {
     footer {
         gap: 1rem;
 
