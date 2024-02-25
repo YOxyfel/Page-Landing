@@ -19,7 +19,8 @@ body {
 
 section,
 footer {
-    margin: 1.5rem auto;
+    margin: 0 auto;
+    padding: 1.5rem 0;
 }
 
 .highlight {
@@ -97,10 +98,6 @@ section.ad {
             color: black;
         }
     }
-}
-
-footer {
-    width: 75vw;
 }
 
 .team,
@@ -220,8 +217,14 @@ div.testimonial {
     }
 }
 
-footer {
+.footer-container
+{
+    background-image: url("background-b.png");
+    width: 100vw;
+}
 
+footer {
+    width: 75vw;
     display: flex;
     flex-wrap: wrap;
     gap: 8rem;
