@@ -7,7 +7,6 @@
 body {
     display: flex;
     flex-wrap: wrap;
-    width: 100vw;
 }
 
 .main-container {
@@ -28,10 +27,6 @@ footer {
     box-shadow: 0 0 0.5rem 0.2rem rgba(0, 0, 0, 0.3);
 }
 
-body>* {
-    overflow: hidden;
-}
-
 header {
     background-image: url("background-b.png");
     background-color: white;
@@ -39,7 +34,6 @@ header {
 
     display: flex;
     flex-wrap: wrap;
-
     justify-content: space-between;
     padding: 0.5rem 10%;
 
