@@ -17,8 +17,7 @@ body {
     flex-wrap: wrap;
 }
 
-section,
-footer {
+section, footer{
     margin: 0 auto;
     padding: 1.5rem 0;
 }
@@ -54,6 +53,9 @@ header {
         }
     }
 }
+
+
+
 
 div.site-title {
     h1 {

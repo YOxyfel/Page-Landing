@@ -47,7 +47,7 @@ function scheduleDailyPlayback() {
     playbackSchedule = [];
 
     // First playback period
-    scheduleAudioPlayback(20, 52, 20, 53); // Start at 1:00 AM, Stop at 1:20 AM
+    scheduleAudioPlayback(20, 58, 20, 59); // Start at 1:00 AM, Stop at 1:20 AM
 
     // Second playback period
     scheduleAudioPlayback(3, 0, 3, 20); // Start at 3:00 AM, Stop at 3:20 AM
